@@ -9,7 +9,7 @@ namespace ACRRentalCar
         {
             //cria um objeto (variável cnn) do tipo SqlConnection
             //e configura a string de conexão
-            SqlConnection cnn = new SqlConnection(@"Data Source=.\\SQLEXPRESS;Initial Catalog=DB_RENTAL_CAR;Integrated Security=True;Pooling=False");
+            SqlConnection cnn = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=DB_RENTAL_CAR;Integrated Security=True;Pooling=False");
 
             //retorna uma conexão com o banco de dados quando esse método for chamado
             return cnn;

@@ -59,6 +59,7 @@
             clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
             clienteToolStripMenuItem.Size = new Size(180, 22);
             clienteToolStripMenuItem.Text = "Cliente";
+            clienteToolStripMenuItem.Click += clienteToolStripMenuItem_Click;
             // 
             // veiculoToolStripMenuItem
             // 
@@ -76,13 +77,13 @@
             // locaçãoToolStripMenuItem
             // 
             locaçãoToolStripMenuItem.Name = "locaçãoToolStripMenuItem";
-            locaçãoToolStripMenuItem.Size = new Size(180, 22);
+            locaçãoToolStripMenuItem.Size = new Size(130, 22);
             locaçãoToolStripMenuItem.Text = "Locação";
             // 
             // devoluçãoToolStripMenuItem
             // 
             devoluçãoToolStripMenuItem.Name = "devoluçãoToolStripMenuItem";
-            devoluçãoToolStripMenuItem.Size = new Size(180, 22);
+            devoluçãoToolStripMenuItem.Size = new Size(130, 22);
             devoluçãoToolStripMenuItem.Text = "Devolução";
             // 
             // frmPrincipal
